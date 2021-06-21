@@ -5,7 +5,8 @@ alert ("welcome "+" "+x+" "+"in our webpage we hope to enjoy in this trip");
 
 alert('please read following message and after that you will answer one qustion')
 
-alert('ilove small cars like (Ford ,Toyota and tesla)'+"  "+",i love health food ,"+"  "+" and my height is 153.");
+alert('ilove small cars like (Ford ,Toyota and tesla)'+"  "+",love health food ,"+"  "+",and my height is 153."+"  "+",inlove with node color"+"  "
++" ,reading book"+"  "+" intresting on technical.");
 
     let c=confirm("did i love fast food")
 
@@ -15,16 +16,14 @@ alert('ilove small cars like (Ford ,Toyota and tesla)'+"  "+",i love health food
     else{
         console.log('No i didnt like fast food not good for health'); 
     }
-
-
-    alert('Answer following qustion to help us to developed our webpage in the future.');
-let a1=prompt("did you love big artucle answer(yse/no)".toLowerCase());
+    
+let a1=prompt("did i prefare big car answer(yse/no)".toLowerCase());
 switch(a1){
     case 'yes':
-         console.log('good reader'); 
+         console.log('yes i love small car'); 
         break;
         case 'no':
-            console.log('we will foucse in this point'); 
+            console.log('no didnt like big car'); 
               break;
           default:
             console.log('hmmm try another answer'); 
@@ -32,13 +31,13 @@ switch(a1){
 
     }
 
-    let a2=prompt("did you prefare colorful webpages answer(YSE/NO)".toLowerCase());
+    let a2=prompt("did i love read big book?(YSE/NO)".toLowerCase());
 switch(a2){
     case 'yes':
-         console.log('very good'); 
+         console.log('i hope you love reading olso'); 
         break;
         case 'no':
-            console.log('you love classic theme'); 
+            console.log('not prefer it'); 
               break;
           default:
             console.log('hmmm try another answer'); 
@@ -46,35 +45,40 @@ switch(a2){
 
     }
 
-    let a3=prompt("did you prefare techniqal webpage(yse/no)".toUpperCase());
+    let a3=prompt("did you prefare classic color(yse/no)".toUpperCase());
 switch(a3){
     case 'Y':
-         console.log('we will work on that'); 
+         console.log('no not my tast'); 
         break;
         case 'N':
-            console.log('can you please contact us to us what you prefare'); 
+            console.log('correct answer'); 
               break;
           default:
             console.log('hmmm try another answer'); 
             break;
     }
 
-    let a4=prompt("did you prefar small font size(yse/no)".toLowerCase());
+    let a4=prompt("Is my height 153(yse/no)".toLowerCase());
 
     if (a4 === 'yes'){
-        console.log('very good');
+        console.log('im realy happy correct answer');
 
-    }else{
-        console.log('we will work on that');
+    }else if(a4 ==='no'){
+        console.log('wrong answer try to foucs on alert next time');
+    }
+    else{
+        console.log('not the expected answer');
     }
 
-    let a5=prompt("did you prefare simple font decoration(y/n)".toLowerCase());
+    let a5=prompt("did i intrested in technology(y/n)".toUpperCase());
 
     if (a5 === 'y'){
-        console.log('good tast');
+        console.log('yes try to learn somthing new');
 
     }else{
-        console.log('we will work on that');
+        console.log('not the correct answer');
     }
 
-    alert (x+" "+"we will take all your answer we will take it seriously")
+    alert (x+" "+"this website will keep developed every day inshaalah")
+
+    
