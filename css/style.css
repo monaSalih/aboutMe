@@ -1,0 +1,26 @@
+footer{
+    margin-top: 130px;
+/* padding-top: 100px; */
+    background-color: #BB8082;
+    width:150px;
+    margin-left: 460px;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+
+img{
+    border: 4px dotted #3A6351 ;
+  }
+
+p{
+    border: 4px double #046582;
+    width:350px;
+    height:100px;
+    margin-left: 560px;
+}
