@@ -121,8 +121,10 @@ for(let i=0; i<6;i++){
   {a7=prompt(' Guess what my favorit color'); } }
 
 alert('score'+countScore);
-
+alert ('These my favorate color'+colorArr);
 alert (x+' '+'this website will keep developed every day inshaalah');
+
+
 
 //let arryuser= ['red','blue','green','yellow'] ;
 
