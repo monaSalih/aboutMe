@@ -108,37 +108,45 @@ for (let i=1; i<4;i++) {
 
 }
 
+
+
+let colorArr = ['red','blue','green','yellow','black'];
+let a7=prompt(' Guess what my favorit color');
+for(let i=0; i<6;i++){
+  if(colorArr.indexOf(a7) !== -1) {
+  // alert("Yes, the value exists!")  ;
+    console.log(countScore=countScore+1);
+    break;}
+  else
+  {a7=prompt(' Guess what my favorit color'); } }
+
 alert('score'+countScore);
 
 alert (x+' '+'this website will keep developed every day inshaalah');
 
 //let arryuser= ['red','blue','green','yellow'] ;
 
+// let arryuser= ['red','blue','green','yellow'];
+
 // for (let i=0; i<6;i++) {
-//     let a7=prompt(' Guess what my favorit color');
+
 //   for (let j=0;j<=arryuser.length ; j++){
-//     if (a7 ===arryuser[j]){
-//       countScore=countScore+1;
-//       console.log(countScore);
-//       console.log(a7);
+//     if (a7 !==arryuser[j]){
+//       console.log('new one please');
+//       a7=prompt(' Guess what my favorit color');
 //       break;
 //     }
 //     else {
-//       console.log('new one please');
-//       a7=prompt(' Guess what my favorit color');
+//       countScore=countScore+1;
+//       console.log(countScore);
+//       console.log(a7);
 //     }
 //     break;
 //   }
 // }
-
-
+// let y=1;
 // let beasts = ['red','blue','green','yellow'];
-// let a7=prompt(' Guess what my favorit color');
-// for (let i=0; i<6;i++) {
-//     if(beasts.indexOf(a7)===a7);{
-//         alert('coorect answer');
-//         countScore=countScore+1;
-//        console.log(countScore);
-//        breake;
-//     }
-//         }
+// if (y<=6){
+
+// }
+
