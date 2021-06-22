@@ -37,7 +37,7 @@ switch(a2){
          console.log('i hope you love reading olso'); 
         break;
         case 'no':
-            console.log('not prefer it'); 
+            console.log('not prefer it') ;
               break;
           default:
             console.log('hmmm try another answer'); 
