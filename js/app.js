@@ -130,8 +130,8 @@ let q7=function(){
       console.log(countScore=countScore+1);
       break;}
       else
-      {a7=prompt(' Guess what my favorit color'); } }
-    }
+      {a7=prompt(' Guess what my favorit color');  }
+}
       let a7=prompt(' Guess what my favorit color');
       q7(a7);
 
